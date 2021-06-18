@@ -31,7 +31,7 @@ namespace memoryGame
         {
             this.label1 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.MediumButton = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.LeftArrow = new System.Windows.Forms.PictureBox();
             this.BackButton = new System.Windows.Forms.Label();
@@ -61,16 +61,17 @@ namespace memoryGame
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // button2
+            // MediumButton
             // 
-            this.button2.Font = new System.Drawing.Font("Gadugi", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(37)))), ((int)(((byte)(52)))));
-            this.button2.Location = new System.Drawing.Point(339, 266);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(150, 50);
-            this.button2.TabIndex = 2;
-            this.button2.Text = "Medium";
-            this.button2.UseVisualStyleBackColor = true;
+            this.MediumButton.Font = new System.Drawing.Font("Gadugi", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.MediumButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(37)))), ((int)(((byte)(52)))));
+            this.MediumButton.Location = new System.Drawing.Point(339, 266);
+            this.MediumButton.Name = "MediumButton";
+            this.MediumButton.Size = new System.Drawing.Size(150, 50);
+            this.MediumButton.TabIndex = 2;
+            this.MediumButton.Text = "Medium";
+            this.MediumButton.UseVisualStyleBackColor = true;
+            this.MediumButton.Click += new System.EventHandler(this.MediumButton_Click);
             // 
             // button3
             // 
@@ -116,7 +117,7 @@ namespace memoryGame
             this.Controls.Add(this.BackButton);
             this.Controls.Add(this.LeftArrow);
             this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.MediumButton);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
             this.Name = "GameLevels";
@@ -131,7 +132,7 @@ namespace memoryGame
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button MediumButton;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.PictureBox LeftArrow;
         private System.Windows.Forms.Label BackButton;

@@ -41,5 +41,14 @@ namespace memoryGame
                 CountDownControl.Text = "Time's up!";
             }
         }
+
+        private void LeftArrow_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            EasyForm easyForm = new EasyForm();
+            easyForm.Close();                                 //Close this form.
+            GameLevels gameLevels = new GameLevels();
+            gameLevels.Show();                                    //Open a new one.
+        }
     }
 }

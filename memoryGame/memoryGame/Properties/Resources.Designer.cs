@@ -105,9 +105,29 @@ namespace memoryGame.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap dancing_gif {
+            get {
+                object obj = ResourceManager.GetObject("dancing-gif", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap game_background {
             get {
                 object obj = ResourceManager.GetObject("game background", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap gray_hair {
+            get {
+                object obj = ResourceManager.GetObject("gray hair", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -125,9 +145,39 @@ namespace memoryGame.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap I_told_you_so {
+            get {
+                object obj = ResourceManager.GetObject("I told you so", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Left_arrow {
             get {
                 object obj = ResourceManager.GetObject("Left-arrow", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap overweight {
+            get {
+                object obj = ResourceManager.GetObject("overweight", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap You_re_banned {
+            get {
+                object obj = ResourceManager.GetObject("You\'re banned", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

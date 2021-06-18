@@ -13,6 +13,7 @@ namespace memoryGame
         private HomePage homePage;
         private GameLevels gameLevels;
         private EasyForm easyForm;
+        private MediumForm mediumForm;
         public GameLevels()
         {
             InitializeComponent();
@@ -34,6 +35,15 @@ namespace memoryGame
             gameLevels.Close();                                 //Close this form.
             EasyForm easyForm = new EasyForm();
             easyForm.Show();                                    //Open a new one.
+        }
+
+        private void MediumButton_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            GameLevels gameLevels = new GameLevels();
+            gameLevels.Close();                                 //Close this form.
+            MediumForm mediumForm = new MediumForm();
+            mediumForm.Show();                                    //Open a new one.
         }
     }
 }
