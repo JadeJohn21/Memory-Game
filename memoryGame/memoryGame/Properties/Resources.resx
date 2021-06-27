@@ -133,8 +133,8 @@
   <data name="gray hair" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\gray hair.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="You're banned" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\You're banned.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="game background" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\game background.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="11-112277_cincinnati-brain-tumor-care-stroke-care-parkinsons-white" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\11-112277_cincinnati-brain-tumor-care-stroke-care-parkinsons-white.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -142,16 +142,19 @@
   <data name="11-112277_cincinnati-brain-tumor-care-stroke-care-parkinsons-white-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\11-112277_cincinnati-brain-tumor-care-stroke-care-parkinsons-white-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="You're banned" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\You're banned.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dancing-gif" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dancing-gif.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="I told you so" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\I told you so.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="game background" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\game background.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="overweight" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\overweight.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="dancing-gif" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\dancing-gif.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="the good new dancing gif" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\the good new dancing gif.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

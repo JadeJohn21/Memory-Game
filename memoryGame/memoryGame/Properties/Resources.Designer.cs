@@ -175,6 +175,16 @@ namespace memoryGame.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap the_good_new_dancing_gif {
+            get {
+                object obj = ResourceManager.GetObject("the good new dancing gif", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap You_re_banned {
             get {
                 object obj = ResourceManager.GetObject("You\'re banned", resourceCulture);

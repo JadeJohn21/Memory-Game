@@ -32,7 +32,7 @@ namespace memoryGame
             this.label1 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.MediumButton = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.DifficultButton = new System.Windows.Forms.Button();
             this.LeftArrow = new System.Windows.Forms.PictureBox();
             this.BackButton = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.LeftArrow)).BeginInit();
@@ -73,16 +73,17 @@ namespace memoryGame
             this.MediumButton.UseVisualStyleBackColor = true;
             this.MediumButton.Click += new System.EventHandler(this.MediumButton_Click);
             // 
-            // button3
+            // DifficultButton
             // 
-            this.button3.Font = new System.Drawing.Font("Gadugi", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(37)))), ((int)(((byte)(52)))));
-            this.button3.Location = new System.Drawing.Point(339, 359);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(150, 50);
-            this.button3.TabIndex = 3;
-            this.button3.Text = "Difficult";
-            this.button3.UseVisualStyleBackColor = true;
+            this.DifficultButton.Font = new System.Drawing.Font("Gadugi", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.DifficultButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(37)))), ((int)(((byte)(52)))));
+            this.DifficultButton.Location = new System.Drawing.Point(339, 359);
+            this.DifficultButton.Name = "DifficultButton";
+            this.DifficultButton.Size = new System.Drawing.Size(150, 50);
+            this.DifficultButton.TabIndex = 3;
+            this.DifficultButton.Text = "Difficult";
+            this.DifficultButton.UseVisualStyleBackColor = true;
+            this.DifficultButton.Click += new System.EventHandler(this.DifficultButton_Click);
             // 
             // LeftArrow
             // 
@@ -116,7 +117,7 @@ namespace memoryGame
             this.ClientSize = new System.Drawing.Size(859, 550);
             this.Controls.Add(this.BackButton);
             this.Controls.Add(this.LeftArrow);
-            this.Controls.Add(this.button3);
+            this.Controls.Add(this.DifficultButton);
             this.Controls.Add(this.MediumButton);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
@@ -133,7 +134,7 @@ namespace memoryGame
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button MediumButton;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button DifficultButton;
         private System.Windows.Forms.PictureBox LeftArrow;
         private System.Windows.Forms.Label BackButton;
     }

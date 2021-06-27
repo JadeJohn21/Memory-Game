@@ -47,6 +47,7 @@ namespace memoryGame
             countDown = 60;
             countDownTimer.Start();
 
+            label3.Visible = false;
             startBtn.Visible = false;
             overweightPic.Visible = true;
             englishLabel.Visible = true;
@@ -63,9 +64,9 @@ namespace memoryGame
                 countDownTimer.Stop();
                 this.Hide();
                 MediumForm mediumForm = new MediumForm();
-                mediumForm.Close();                                 //Close this form.
+                mediumForm.Close();                                     //Close this form.
                 QuestionsForm questionsForm  = new QuestionsForm();
-                questionsForm.Show();                                  // Open the previous one.
+                questionsForm.Show();                                  // Open a new one.
             }
 
             if (countDown == 45) 

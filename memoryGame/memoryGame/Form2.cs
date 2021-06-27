@@ -45,5 +45,14 @@ namespace memoryGame
             MediumForm mediumForm = new MediumForm();
             mediumForm.Show();                                    //Open a new one.
         }
+
+        private void DifficultButton_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            GameLevels gameLevels = new GameLevels();
+            gameLevels.Close();                                 //Close this form.
+            DifficultForm difficultForm = new DifficultForm();
+            difficultForm.Show();                               //Open a new one.
+        }
     }
 }

@@ -51,6 +51,7 @@ namespace memoryGame
             this.youAreBannedPic = new System.Windows.Forms.PictureBox();
             this.youAreBannedLabel = new System.Windows.Forms.Label();
             this.jyIsVerbanLabel = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.LeftArrow)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.overweightPic)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.grayHairPic)).BeginInit();
@@ -111,9 +112,8 @@ namespace memoryGame
             this.CountDownControl1.Location = new System.Drawing.Point(717, 68);
             this.CountDownControl1.Name = "CountDownControl1";
             this.CountDownControl1.Padding = new System.Windows.Forms.Padding(10, 0, 10, 0);
-            this.CountDownControl1.Size = new System.Drawing.Size(66, 32);
+            this.CountDownControl1.Size = new System.Drawing.Size(20, 32);
             this.CountDownControl1.TabIndex = 11;
-            this.CountDownControl1.Text = "60";
             // 
             // countDownTimer
             // 
@@ -204,9 +204,9 @@ namespace memoryGame
             this.grayHairLabel.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.grayHairLabel.Location = new System.Drawing.Point(251, 360);
             this.grayHairLabel.Name = "grayHairLabel";
-            this.grayHairLabel.Size = new System.Drawing.Size(140, 20);
+            this.grayHairLabel.Size = new System.Drawing.Size(128, 20);
             this.grayHairLabel.TabIndex = 19;
-            this.grayHairLabel.Text = "You have a gray hair";
+            this.grayHairLabel.Text = "You have gray hair";
             // 
             // grysHareLabel
             // 
@@ -215,9 +215,9 @@ namespace memoryGame
             this.grysHareLabel.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.grysHareLabel.Location = new System.Drawing.Point(453, 360);
             this.grysHareLabel.Name = "grysHareLabel";
-            this.grysHareLabel.Size = new System.Drawing.Size(122, 20);
+            this.grysHareLabel.Size = new System.Drawing.Size(107, 20);
             this.grysHareLabel.TabIndex = 20;
-            this.grysHareLabel.Text = "Jy het \'n grys hare";
+            this.grysHareLabel.Text = "Jy het grys hare";
             // 
             // iToldYouSoPic
             // 
@@ -277,11 +277,23 @@ namespace memoryGame
             this.jyIsVerbanLabel.AutoSize = true;
             this.jyIsVerbanLabel.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
             this.jyIsVerbanLabel.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.jyIsVerbanLabel.Location = new System.Drawing.Point(462, 360);
+            this.jyIsVerbanLabel.Location = new System.Drawing.Point(472, 360);
             this.jyIsVerbanLabel.Name = "jyIsVerbanLabel";
             this.jyIsVerbanLabel.Size = new System.Drawing.Size(87, 20);
             this.jyIsVerbanLabel.TabIndex = 26;
             this.jyIsVerbanLabel.Text = "Jy is verban!";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Gadugi", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label3.Location = new System.Drawing.Point(717, 68);
+            this.label3.Name = "label3";
+            this.label3.Padding = new System.Windows.Forms.Padding(10, 0, 10, 0);
+            this.label3.Size = new System.Drawing.Size(66, 32);
+            this.label3.TabIndex = 27;
+            this.label3.Text = "60";
             // 
             // MediumForm
             // 
@@ -289,6 +301,7 @@ namespace memoryGame
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(37)))), ((int)(((byte)(52)))));
             this.ClientSize = new System.Drawing.Size(859, 550);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.jyIsVerbanLabel);
             this.Controls.Add(this.youAreBannedLabel);
             this.Controls.Add(this.youAreBannedPic);
@@ -345,5 +358,6 @@ namespace memoryGame
         private System.Windows.Forms.PictureBox youAreBannedPic;
         private System.Windows.Forms.Label youAreBannedLabel;
         private System.Windows.Forms.Label jyIsVerbanLabel;
+        private System.Windows.Forms.Label label3;
     }
 }
